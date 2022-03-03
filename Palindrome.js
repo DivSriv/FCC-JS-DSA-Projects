@@ -1,6 +1,3 @@
-
-
-```
 function palindrome(str) {
   str = str.replaceAll('_', '');
   str = str.replaceAll(' ', '');
@@ -42,5 +39,3 @@ palindrome("five|\_/|four")
 
 palindrome("nope") 
 //should return false.
-
-```
