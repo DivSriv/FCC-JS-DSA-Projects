@@ -4,15 +4,14 @@ function rot13(str) {
   let store =0;
   for(let i=0; i<str.length; i++){
     if(regex.test(str[i])){
-      console.log(str[i].charCodeAt())
+      //console.log(str[i].charCodeAt())
       store = 65 + str[i].charCodeAt() % 26;
-      console.log(store)
+      //console.log(store)
       str[i] = String.fromCharCode(store);
-      console.log(str[i])
+      //console.log(str[i])
     }
   }
   str = str.join("");
-  console.log(str)
   return str;
 }
 
